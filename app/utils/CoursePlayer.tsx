@@ -14,12 +14,9 @@ const CoursePlayer: FC<Props> = ({ videoUrl }) => {
 
   useEffect(() => {
     axios
-      .post(
-        "https://patriot-elearning-server-1.onrender.com/api/v1/getVdoCipherOTP",
-        {
-          videoId: videoUrl,
-        }
-      )
+      .post("http://localhost:8000/api/v1/getVdoCipherOTP", {
+        videoId: videoUrl,
+      })
       .then((res) => {
         setVideoData(res.data);
       });

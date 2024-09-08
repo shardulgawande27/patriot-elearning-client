@@ -11,12 +11,12 @@ export const reviews = [
     avatar: "https://randomuser.me/api/portraits/men/1.jpg",
     profession: "Student | Cambridge university",
     comment:
-      "I had the pleasure of exploring Patriot Elearning, a website that provides an extensive range of courses on various tech-related topics. I was thoroughly impressed with my experience, as the website offers a comprehensive selection of courses that cater to different skill levels and interests. If you're looking to enhance your knowledge and skills in the tech industry, I highly recommend checking out Patriot Elearning!",
+      "I had the pleasure of exploring NexusTraders, a website that provides an extensive range of courses on various tech-related topics. I was thoroughly impressed with my experience, as the website offers a comprehensive selection of courses that cater to different skill levels and interests. If you're looking to enhance your knowledge and skills in the tech industry, I highly recommend checking out NexusTraders!",
   },
   {
     name: "Verna Santos",
     avatar: "https://randomuser.me/api/portraits/women/1.jpg",
-    profession: "Full stack developer | Quarter ltd.",
+    profession: "Trader | Quarter ltd.",
     comment:
       "Thanks for your amazing programming tutorial channel! Your teaching style is outstanding, and the quality of your tutorials is top-notch. Your ability to break down complex topics into manageable parts, and cover diverse programming languages and topics is truly impressive. The practical applications and real-world examples you incorporate reinforce the theoretical knowledge and provide valuable insights. Your engagement with the audience fosters a supportive learning environment. Thank you for your dedication, expertise, and passion for teaching programming, and keep up the fantastic work!",
   },
@@ -30,9 +30,9 @@ export const reviews = [
   {
     name: "Mina Davidson",
     avatar: "https://randomuser.me/api/portraits/women/2.jpg",
-    profession: "Junior Web Developer | Indonesia",
+    profession: "Trader | Indonesia",
     comment:
-      "I had the pleasure of exploring Patriot Elearning, a website that provides an extensive range of courses on various tech-related topics. I was thoroughly impressed with my experience",
+      "I had the pleasure of exploring NexusTraders, a website that provides an extensive range of courses on various tech-related topics. I was thoroughly impressed with my experience",
   },
   {
     name: "Rosemary Smith",
@@ -46,7 +46,7 @@ export const reviews = [
     avatar: "https://randomuser.me/api/portraits/women/4.jpg",
     profession: "Full stack web developer | Canada",
     comment:
-      "Join Patriot Elearning! Patriot Elearning focuses on practical applications rather than just teaching the theory behind programming languages or frameworks. I took a lesson on creating a web marketplace using React JS, and it was very helpful in teaching me the different stages involved in creating a project from start to finish. Overall, I highly recommend Patriot Elearning to anyone looking to improve their programming skills and build practical projects. Patriot Elearning is a great resource that will help you take your skills to the next level.",
+      "Join NexusTraders! NexusTraders focuses on practical applications rather than just teaching the theory behind programming languages or frameworks. I took a lesson on creating a web marketplace using React JS, and it was very helpful in teaching me the different stages involved in creating a project from start to finish. Overall, I highly recommend NexusTraders to anyone looking to improve their programming skills and build practical projects. NexusTraders is a great resource that will help you take your skills to the next level.",
   },
 ];
 
@@ -56,7 +56,7 @@ const Reviews = (props: Props) => {
       <div className="w-full 800px:flex items-center">
         <div className="800px:w-[50%] w-full">
           <Image
-            src={require("../../../public/assests/business-img.png")}
+            src={require("../../../public/assests/bull-img.png")}
             alt="business"
             width={700}
             height={700}

@@ -112,7 +112,7 @@ const Footer = (props: Props) => {
             </p>
 
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-              Address: +7011 building , Thane city, MH , India
+              Address: +7011 Vermont Ave, Los Angeles, CA 90044
             </p>
 
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white  pb-2">

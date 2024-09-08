@@ -58,7 +58,9 @@ const About = () => {
 
         <br />
         <span className="text-[22px]">Shardul Gawande</span>
-        <h5 className="text-[18px] font-Poppins">Founder and CEO of Patriot</h5>
+        <h5 className="text-[18px] font-Poppins">
+          Founder and CEO of Becodemy
+        </h5>
         <br />
         <br />
         <br />

@@ -28,11 +28,11 @@ const Hero: FC<Props> = (props) => {
         <Loader />
       ) : (
         <div className="w-full 1000px:flex items-center">
-          <div className="absolute top-[100px] 1000px:top-[unset] 1500px:h-[700px] 1500px:w-[700px] 1100px:h-[600px] 1100px:w-[600px] h-[40vh] left-5 w-[40vh] hero_animation rounded-[50%] 1100px:left-8 1500px:left-14"></div>
+          <div className="absolute top-[100px] 1000px:top-[unset] 1500px:h-[700px] 1500px:w-[700px] 1100px:h-[600px] 1100px:w-[600px] h-[40vh] left-5 w-[40vh]  rounded-[50%] 1100px:left-8 1500px:left-14"></div>
           <div className="1000px:w-[40%] flex 1000px:min-h-screen items-center justify-end pt-[70px] 1000px:pt-[0] z-10">
             <Image
               src={data?.layout?.banner?.image?.url}
-              // src={require("../../../public/assests/banner-img-1.png")}
+              // src={require("../../../public/assests/nexus-logo.png")}
               width={400}
               height={400}
               alt=""
@@ -46,7 +46,7 @@ const Hero: FC<Props> = (props) => {
             </h2>
             <br />
             <p className="dark:text-[#edfff4] text-[#000000ac] font-Josefin font-[600] text-[18px] 1500px:!w-[55%] 1100px:!w-[78%]">
-              {data?.layout?.banner?.subTitle}\
+              {data?.layout?.banner?.subTitle}
               {/* We have 40k+ Online courses & 500K+ Online registered student.
               Find your desired Courses from them. */}
             </p>
